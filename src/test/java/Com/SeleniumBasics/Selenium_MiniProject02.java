@@ -1,4 +1,4 @@
-package Com.AutomationTestng;
+package Com.SeleniumBasics;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
