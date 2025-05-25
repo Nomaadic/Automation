@@ -1,4 +1,4 @@
-package Com.AutomationSampleProjects;
+package Com.AutomationTestng;
 
 import org.openqa.selenium.WebDriver;
 
