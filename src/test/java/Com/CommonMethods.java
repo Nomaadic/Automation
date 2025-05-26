@@ -29,8 +29,8 @@ public class CommonMethods
     }
 
    @AfterTest
-    public void tearDown()
-    {
+    public void tearDown() throws InterruptedException {
+        Thread.sleep(3000);
         driver.quit();
     }
 }
