@@ -26,9 +26,10 @@ public class CommonMethods
         EdgeOptions ED1 = new EdgeOptions();
         ED1.addArguments("--incognito");
         driver = new EdgeDriver(ED1);
+        driver.manage().window().maximize();
     }
 
-   @AfterTest
+   //@AfterTest
     public void tearDown() throws InterruptedException {
         Thread.sleep(3000);
         driver.quit();
